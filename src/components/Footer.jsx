@@ -12,13 +12,13 @@ const Footer = () => {
   return (
     <Flex borderTop={'1px solid #333'} alignItems={'center'} justifyContent={'space-between'} py={'15px'} px={'5%'}>    
         <Flex alignItems={'center'} >
-        <Text fontSize={{base: '12px',md: '14px',lg: '15px'}} color={'#fff'} me={'5%'}>
+        <Text fontSize={{base: '9px',md: '14px',lg: '15px'}} color={'#fff'} me={'5%'}>
             waiyan2015.wy65@gmail.com
         </Text> 
             <motion.div initial={{ background: 'black'}} whileHover={{ border: '1px solid gold',color: 'gold',scale: 1.1}}  >
             <Box px={'5px'} py={'2px'} bg={'black'} border={'1px solid gold'} color={'#fff'}>
                 <a href={cv} download={true} >
-                    <Flex fontSize={{base: '12px',md: '14px'}} alignItems={'center'}>
+                    <Flex fontSize={{base: '10px',md: '14px'}} alignItems={'center'}>
                         <span className='test' >RESUME</span>
                         <motion.div  animate={{opacity: [0,1,0]}} transition={{ duration: 1,repeat: Infinity}} >
                                     <span className='test' style={{marginLeft: '4px'}}>\{resume}</span>
