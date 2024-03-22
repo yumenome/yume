@@ -25,7 +25,7 @@ const Skills = () => {
         <Image src={skill} w={'70px'} />
         </Flex>
 
-        <Box mb={'30px'} w={'60%'} mx={'20%'} >
+        <Box mb={'30px'} w={{base: '80%',md: '60%',lg: '60%'}} mx={{base: '10%',md: '20%',lg: '20%'}} >
 
             <Flex bg={'transparent'}  alignItems={'center'} justifyContent={'space-evenly'}>
                 

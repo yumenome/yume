@@ -32,7 +32,7 @@ const Header = () => {
           </a>
           </motion.div>
 
-          <Flex justifyContent={'space-between'} w={{md:'40%',base: '50%'}} fontSize={{base: '15px',lg: '20px'}}>
+          <Flex justifyContent={'space-between'} w={{md:'40%',base: '60%'}} fontSize={{base: '15px',lg: '20px'}}>
               <Box _hover={{cursor: 'pointer'}}>
                 <a href="#story" className={acitveLink === 'story' ? 'active test' : 'test' } onClick={() =>{setActiveLink('story')}}>story</a>
               </Box>
