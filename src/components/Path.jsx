@@ -19,8 +19,8 @@ const Path = () => {
                         </motion.div>
                     </Box>
 
-                    <Box ms={'50%'}   >
-                        <motion.div transition={{ duration: 0.5 }} initial={{ opacity: 0,x: 100 }} whileInView={{ opacity: 1,x: -1 }} bg={'#fff'} w={'300px'} >
+                    <Box bg={'transparent'} w={'50%'}  >
+                    <motion.div transition={{ duration: 0.5 }} initial={{ opacity: 0 }} whileInView={{ opacity: 1,x: ['200%','100%'] }} bg={'#fff'} w={'300px'} >
                         <Box w={'100%'} borderLeft={'2px solid #fff'} padding={'7px'} borderTop={'2px solid #ccc'}>
                              <Text  fontSize={{base: '14px',md: '15px',lg: '16px'}} fontWeight={'bold'} borderBottom={'1px dashed #ccc'} pb={'7px'} >PHP, MYSQL & LARAVEL: 3_months</Text>
                             <Text  fontSize={{base: '12px',md: '14px',lg: '16px'}} >
@@ -41,8 +41,8 @@ const Path = () => {
                         </motion.div>
                     </Box>
 
-                    <Box ms={'50%'} >
-                        <motion.div transition={{ duration: 0.5 }} initial={{ opacity: 0,x: 100 }} whileInView={{ opacity: 1,x: -1 }} bg={'#fff'} w={'300px'} >
+                    <Box bg={'transparent'} w={'50%'} >
+                    <motion.div transition={{ duration: 0.5 }} initial={{ opacity: 0 }} whileInView={{ opacity: 1,x: ['200%','100%'] }} bg={'#fff'} w={'300px'} >
                         <Box w={'100%'} borderLeft={'2px solid #fff'} padding={'7px'} borderTop={'2px solid #ccc'}>
                              <Text   fontSize={{base: '14px',md: '15px',lg: '16px'}} fontWeight={'bold'} borderBottom={'1px dashed #ccc'} pb={'7px'} >FREELEANCE WITH LARAVEL: 3_months</Text>
                             <Text  fontSize={{base: '12px',md: '14px',lg: '16px'}} >
