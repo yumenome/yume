@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: black;
+  font-family: "Nova Mono", monospace;
+}::-webkit-scrollbar{
+  width: 0;
+}
+
+.projects {
+  max-height: 500px;
+  overflow-y: scroll;
+  
+  &::-webkit-scrollbar {
+    width: 1px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: gold;
+  }
+}
+
+.test{
+  opacity: 0.8;
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+
+.active{
+  opacity: 1;
+  font-size: 21px;
+}
+
+/* .skills{
+  /* background: #37200093;   */
+  /* background: #76430132; */
+  /* background: #ffff; */
+  /* background: #FFE453; */
+  /* border: 1px solid #55ff0059;/ */
+/* } */ */
+
+.rotate {
+  transition: transform 0.5s ease;
+}
+
+.rotate:hover {
+  transform: rotateY(150deg);
+  opacity: 1;
+  /* transform: rotate(360deg); */
+}
