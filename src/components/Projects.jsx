@@ -16,37 +16,37 @@ const Projects = () => {
         {
             title: 'U-TUDE CLONE',
             description: "Welcome to my first React project! Leveraging the power of RapidAPI, I've seamlessly integrated YouTube's functionality into my application. Utilizing Axios for efficient data fetching and MUI for sleek CSS design.",
-            codes: [ {link: 'https://github.com/yumenome/booking'} ],
+            codes: [ {link: 'https://github.com/yumenome/utude_clone.git'} ],
             img: utude
         },
         {
             title: 'GiM',
             description: "Harnessing the capabilities of RapidAPI, I've seamlessly integrated essential gym functionalities into this application. With the dynamic styling of MUI and efficient data fetching powered by Axios, I've crafted an experience tailored for gym enthusiasts.",
-            codes: [ {link: 'https://github.com/yumenome/booking'} ],
+            codes: [ {link: 'https://github.com/yumenome/GiM.git'} ],
             img: gim
         },
         {
             title: 'IG CLONE',
             description: "Presenting my inaugural CSR project: an IG clone. Leveraging Laravel API for the backend and React for the frontend, I've encapsulated the essence of Instagram's user experience. Employing Chakra UI's polished UI components, I've fashioned an interface that closely emulates Instagram's familiar aesthetics.",
-            codes: [ {link: 'https://github.com/yumenome/booking'}, {link: 'https://github.com/yumenome/booking'} ],
+            codes: [ {link: 'https://github.com/yumenome/ig_fe.git'}, {link: 'https://github.com/yumenome/ig_be.git'} ],
             img: ig
         },
         {
             title: 'LET ME CHECK',
             description: "Explore detailed phone reviews effortlessly. Powered by Filament Dashboard for backend UI and Chakra UI for frontend design, I've transformed user engagement with reviews. Integrated YouTube videos and professional website reviews empower informed decisions. ",
-            codes: [ {link: 'https://github.com/yumenome/booking'}, {link: 'https://github.com/yumenome/booking'} ],
+            codes: [ {link: 'https://github.com/yumenome/let_meCheck-fe.git'}, {link: 'https://github.com/yumenome/let_meCheck-be.git'} ],
             img: letmecheck
         },
         {
             title: 'POKEMON',
             description: "Welcome to the unveiling of my innovative Pokémon Card project! Immerse yourself in a world where Laravel API, React, and advanced JavaScript logics converge to redefine the trading experience for Pokémon cards with Complemented by Chakra UI for frontend design, this platform reinvents the buying and selling of Pokémon cards.",
-            codes: [ {link: 'https://github.com/yumenome/booking'}, {link: 'https://github.com/yumenome/booking'} ],
+            codes: [ {link: 'https://github.com/yumenome/pokemon_fe.git'}, {link: 'https://github.com/yumenome/pokemon_be.git'} ],
             img: pokemon
         },
         {
             title: 'IDEAS',
             description: "Welcome to IDEAS, the Social Platform SSR project! Crafted primarily with Laravel and Bootstrap for CSS styling, IDEA represents a new frontier in social networking. With server-side rendering at its core, this platform offers seamless performance and dynamic user experiences.",
-            codes: [ {link: 'https://github.com/yumenome/booking'} ],
+            codes: [ {link: 'https://github.com/yumenome/idea.git'} ],
             img: idea
         }
     ]
